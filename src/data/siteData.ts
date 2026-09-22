@@ -14,17 +14,17 @@ const siteBase = import.meta.env.BASE_URL;
 const img = (file: string) => `${siteBase}images/${file}`;
 
 export const replaceable = {
-  note: "Значения ниже — данные для замены на реальные перед публикацией. Ничто из этого не представлено как факт.",
+  note: "Значения ниже — данные для замены на реальные перед публикацией. Операционные поля заполнены демо-значениями; идентификационные (имя, образование, телефон и т.д.) — пустые маркеры.",
   name: "[ИМЯ]",
   tutorName: "[ИМЯ ПРЕПОДАВАТЕЛЯ]",
   city: "[ГОРОД]",
-  format: "[ОНЛАЙН / ОЧНО В ГОРОДЕ]",
-  priceTrial: "[БЕСПЛАТНО / ЦЕНА]",
-  priceChildren: "от [ЦЕНА]",
-  priceExam: "от [ЦЕНА]",
-  priceSpeaking: "от [ЦЕНА]",
-  priceWork: "от [ЦЕНА]",
-  exams: "[УКАЗАТЬ]",
+  format: "онлайн",
+  priceTrial: "Бесплатно",
+  priceChildren: "от 1 200 ₽ / занятие",
+  priceExam: "от 1 500 ₽ / занятие",
+  priceSpeaking: "от 1 400 ₽ / занятие",
+  priceWork: "от 1 500 ₽ / занятие",
+  exams: "ОГЭ и ЕГЭ",
   education: "[ОБРАЗОВАНИЕ]",
   qualification: "[КВАЛИФИКАЦИЯ]",
   experience: "[СТАЖ]",
@@ -32,11 +32,11 @@ export const replaceable = {
   phone: "[ТЕЛЕФОН]",
   telegram: "https://t.me/[ССЫЛКА]",
   whatsapp: "https://wa.me/[ССЫЛКА]",
-  schedule: "[ДНИ И ВРЕМЯ]",
-  startingAge: "[ВОЗРАСТ УЧЕНИКОВ]",
-  materials: "[МАТЕРИАЛЫ]",
-  cancelRules: "[ПРАВИЛА ОТМЕНЫ И ПЕРЕНОСА]",
-  siteUrl: "[SITE_URL]",
+  schedule: "график согласуем индивидуально",
+  startingAge: "с 7 лет",
+  materials: "все материалы подбираю под уровень и цель — покупать ничего дополнительно не нужно",
+  cancelRules: "о переносе или отмене сообщите заранее — подберём новое удобное время",
+  siteUrl: "https://aorlova-techspec.github.io/english-tutor",
 };
 
 export const nav = [
